@@ -10,8 +10,7 @@ cpio -id < ../initrd
   
   
 ******************
-* Pack initrd.gz *
-******************
+* Pack initrd.gz 
 cd ~/repack/tmp2/  
 find . | cpio --create --format='newc' > ../initrd  
 cd ~/repack/  
@@ -20,6 +19,5 @@ cp initrd.gz ~/iso/initrd.gz
 cd ~/  
   
 ***************************
-* Make ISO with grub-boot *
-***************************
+* Make ISO with grub-boot 
 sudo grub-mkrescue -o grub.iso iso  
