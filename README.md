@@ -2,8 +2,7 @@
 Install linux from LUKS container with iso-image
 
 ********************
-* Unpack initrd.gz *
-********************
+* Unpack initrd.gz
 gunzip initrd.gz  
 mkdir tmp2  
 cd tmp2/  
