@@ -19,5 +19,5 @@ cp initrd.gz ~/iso/initrd.gz
 cd ~/  
   
 ***************************
-* Make ISO with grub-boot 
+* Make ISO with grub-boot  
 sudo grub-mkrescue -o grub.iso iso  
